@@ -209,7 +209,7 @@ export default {
       // Google MAP API使用方式, 參考官方網站介紹(請點選網頁中的"動態載入Package"那個分頁標籤): https://developers.google.com/maps/documentation/javascript/overview?hl=zh-tw%2F%3Fq%3Dmake#Loading_the_Maps_API
       const loader = new Loader({
         // 個人Google Map API KEY (請保密勿外流)
-        apiKey: 'AIzaSyAuJ7GstEIcKD3vpTx8gSE3sGuDLRxSabE',
+        apiKey: 'YourKey',
         version: 'weekly'
         // 設定是否讓使用者可以切換地圖樣式：一般、衛星圖等
         // mapTypeControl: false,
