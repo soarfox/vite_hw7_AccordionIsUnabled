@@ -3,7 +3,8 @@
     <!-- {{ singleProduct }} -->
 
     <!-- 使用BootStrap的格線系統方式來排版, 如果當使用者點擊查看更多後, this.$route.params.id會有商品的id, 因此便將這個產品列表的div給隱藏起來, 只留下router-view的畫面 -->
-    <div class="row container">
+    <div class="container my-5">
+    <div class="row">
       <div class="col-6">
         <!-- 樣式設定參考官網: https://getbootstrap.com/docs/5.0/content/images/#picture, 設定圖片為bootstrap的img-fluid樣式可讓圖片為響應式, 不會超出水平捲軸 -->
         <img :src="singleProduct.imageUrl" class="img-fluid rounded mx-auto d-block img-cover" :alt="singleProduct.title">
@@ -32,6 +33,7 @@
       </div>
     </div>
   </div>
+</div>
 </template>
 
 <script>
