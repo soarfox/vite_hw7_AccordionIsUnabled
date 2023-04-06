@@ -1,1 +1,0 @@
-import{_ as t,o,c as e,a as s}from"./index-a7a29e29.js";const c={},n={class:"container my-5"},a=s("h3",null,"聯絡我們, 可參考這個網站的寫法: https://yiren-liou.github.io/AboriginalShop/#/contact",-1),r=[a];function i(_,p,d,l,h,u){return o(),e("div",n,r)}const m=t(c,[["render",i]]);export{m as default};
