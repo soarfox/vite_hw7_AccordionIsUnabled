@@ -11,6 +11,8 @@ export default defineConfig({
       include: ['src/**/*.js', 'src/**/*.vue', 'src/*.js', 'src/*.vue']
     })
   ],
+  // 請手動新增下方這一行, 設定編譯完成後的路徑對應到github的儲存庫名稱, 請記得在此github專案名稱的前後方都需要加上一個/符號
+  base: '/vite_hw7_AccordionIsUnabled/',
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url)),
