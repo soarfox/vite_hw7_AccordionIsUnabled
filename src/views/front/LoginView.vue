@@ -1,7 +1,7 @@
 <template>
   <div class="container col-3 my-5">
     <div>
-      <h3>登入頁面</h3>
+      <h3>管理者登入頁面</h3>
       <!-- 此處為了避免登入按鈕(submit)送出一個請求給伺服器, 故要寫prevent, 使其停留在本頁並且做登入檢查後, 才執行後續動作 -->
       <form id="form" class="form-signin" v-on:submit.prevent="login">
         <div class="form-floating mb-3">
