@@ -6,6 +6,9 @@ import App from './App.vue'
 // 因為index.js中有export default router這個檔案, 故在此可以引入使用
 import router from './router'
 
+// 為了要讓前台"常見問題"該頁的Bootstrap5的手風琴效果(Accordion)能正常作動, 此處需要引用bootstrap, 應當是該效果有使用到BS的js, 故需要進行引用
+import 'bootstrap'
+
 // 將VeeValidate套件進行安裝, 安裝方式可參考官網:https://vee-validate.logaretm.com/v4/tutorials/basics/, 以全域性方式引入所需使用到的多項表單樣式與規則, 且設定(configure)也需引用, 並搭配下方對應程式碼, 參考官網: https://vee-validate.logaretm.com/v4/api/configuration#updating-the-config
 import { Form, Field, ErrorMessage, defineRule, configure } from 'vee-validate'
 // 以全域性方式定義所有VeeValidate的規則, 且在下方加上對應的程式碼, 可參考官網: https://vee-validate.logaretm.com/v4/guide/global-validators#vee-validaterules, 請用關鍵字搜尋Or you can globally define all the available rules in the @vee-validate/rules package
