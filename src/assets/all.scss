@@ -1,0 +1,5 @@
+// 因為想要修改自定義的bootstrap變數, 故已將C:\Users\soarfox\.vscode\project\vue3_gh-pages\hw6\node_modules\bootstrap\scss\_variables.scss檔案另存一份到C:\Users\soarfox\.vscode\project\vue3_gh-pages\hw6\src\assets底下, 且必須要引入bootstrap的functions後才能修改其變數內容
+@import "bootstrap/scss/functions";
+@import "./variables";
+// 並且要將bootstrap給載入進來
+@import "bootstrap/scss/bootstrap";
